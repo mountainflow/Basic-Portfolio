@@ -14,9 +14,9 @@
             <div class="top">
                 <h1 class="name">Greg Olson</h1>
                 <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a href="contact.html">Contact</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="index.html">About</a></li>
                 </ul>
             </div>
         </header>
@@ -25,17 +25,19 @@
             <div class="title">
                 <h1 class="about">Contact</h1>
             </div>
-            <div class="content">
-                <img src="assets/images/bio-image.jpg" alt="Image of Greg" class="bioImage">
-                <p>
-                    Hi! My name is Greg Olson and I am just starting the University of Utah's Coding Bootcamp! This is a basic portfolio site
-                    where I am learning HTML and CSS. (There's a lot to it!)
-                </p>
-                <p>
-                    I live in Salt Lake City and I moved here to have a base camp for rock climbing. I don't have too much time to climb 
-                    any more because I have a 2 1/2 year old son named Baker, I am attending the Bootcamp, and I also work full time 
-                    managing a fine dining restaurant. 
-                </p>
+            <div class="content">                
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+    
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="example@gmail.com">  
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write something.."></textarea>    
+                    <input type="submit" value="Submit">
+    
+      </form>
     
             </div>
     
