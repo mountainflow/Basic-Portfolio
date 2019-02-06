@@ -17,6 +17,7 @@ body {
 
 header {
     position: fixed;
+    z-index: 2;
     top: 0;
     width: 100%;
     border-bottom: 2px solid #cccccc;
@@ -127,6 +128,7 @@ section.main {
 
 footer {
     position: fixed;
+    z-index: 2;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -164,4 +166,15 @@ input[type=submit]:hover {
 
 textarea#message {
     height: 200px;
+}
+
+/* portfolio images */
+
+img.portfolio {
+    box-shadow: 8px 8px 10px darkgrey;
+    margin: 6px 32px 26px 0;
+}
+  
+img.portfolio:hover {
+    opacity: 0.3;
 }
